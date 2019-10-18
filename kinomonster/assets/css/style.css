@@ -1,0 +1,347 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+input[type="text"], input[type="password"],input[type="search"]{
+        margin: 1%;
+        color: #5d5d5d;
+        width: 60%;
+        padding: 8px;
+}
+
+input,textarea{
+        outline: none;
+        border:none;
+        border:solid 1px #f2f2f2;
+}
+h1,h2{
+        font: normal 170% 'century gothic', arial;
+        margin: 0 0 15px 0;
+        padding: 15px 0 5px 0;
+        color: #000;
+}
+h2{
+        font-size: 140%;
+}
+a, a:hover{
+        outline: none;
+        text-decoration: underline;
+        color: #aeb002;
+}
+body{
+        font-size: 1.2em;
+        background-color: #fff;
+        color: #555;
+}
+p{
+        padding: 0 0 20px 0;
+        line-height: 1.7em;
+}
+ul{
+        margin: 2px 0 22px 17px;
+}
+ul li{
+        margin: 0 0 6px 0;
+        padding: 0 0 4px 5px;
+        line-height: 1.5em;
+}
+hr {
+        width: 590px;
+}
+
+.header{
+        background-color: darkslateblue;
+        height: 177px;
+        font-size: 0.8em;
+        margin-left: 0px;
+        margin-right: 0px;
+        min-width: 900px;
+        border: 5px black;
+}
+.logo, .menubar, .site_content, .footer, .main {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.logo{
+        width: 880px;
+        padding-bottom: 40px;
+}
+.logo h1, .logo h2{
+        font: normal 300% 'century gothic', arial, sans-serif;
+        margin:0 0 0 9px;
+}
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+        padding:22px 0 0 0;
+        color: #fff;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+}
+.logo_text h2{
+        font-size: 0.9em;
+        padding:4px 0 0 0;
+        color: #999;
+}
+.menubar{
+        width: 900px;
+        height: 46px;
+}
+ul.menu{
+        float:right;
+}
+ul.menu li{
+        float:left;
+        padding: 0 0 0 9px;
+        list-style: none;
+        margin:1px 2px 0 0;
+}
+ul.menu li a{
+        font:normal 100% 'trebuchet ms', sans-serif;
+        display: block;
+        height: 20px;
+        padding: 6px 35px 5px 28px;
+        color: #fff;
+        text-decoration: none;
+}
+ul.menu li.selected a{
+        color: #aeb002;
+}
+ul.menu li a:hover{
+        color: #e4ec04;
+}
+hr{
+        border:solid 1px #f3f3f3;
+}
+.site_content{
+        width: 880px;
+        overflow: hidden; 
+        margin: 20px auto 0 auto;
+        background-color: white;
+}
+.sidebar_container{
+        float: right;
+        width: 224px;
+}
+.sidebar{
+        float: right;
+        width: 250px;
+        padding: 5%;
+        margin: 0 0 16px 0;
+        border:solid 1px #f2f2f2;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+}
+.btn{
+        padding: 8px;
+        background-color: white;
+        cursor: pointer;
+}
+.sidebar h2{
+        color: #136cb2;
+}
+.lables_passreg_text{
+        font-size: 0.7em;
+        margin-top: 3%;
+        margin-left: 2%;
+}
+.sidebar ul{
+        list-style-type: none;
+        margin: 0;
+}
+.siderbar ul li{
+        list-style-type: none;
+        margin: 0 0 0 0;
+}
+.sidebar .rating_sidebar{
+        float: right;
+}
+.content{
+  text-align: left;
+  width: 620px;
+  padding: 0 0 0 5px;
+  float: left;
+}
+.content a{
+        text-decoration: none;
+}
+.films_block{
+        margin-bottom: 5%;
+}
+.films_block img{
+        border-radius: 5px;
+        border: solid 5px #dad7dd;
+        width: 20%
+}
+.posts .posts_content{
+        font-size: 0.7em;
+}
+.info_filmpage{
+        margin-top: 2%;
+        margin-bottom: 4%;
+}
+.info_filmpage .label{
+        font-size: 1.2em;
+}
+.info_filmpage .value{
+        font-size: 1em;
+        color: #49945a;
+        margin-right: 3%;
+}
+.description_film{
+        margin-bottom: 15%;
+         margin-right: 20px;
+}
+.description_film img{
+        float:left;
+        margin-right: 2%;
+        border-radius: 5px;
+        border:solid 5px #daad7d5d;
+}
+.reviews{
+        margin-bottom: 4%;
+        font-size: 0.9em;
+}
+.review_name{
+        background-color: #7268ad;
+        color: white;
+        padding: 1%;
+        border-top-left-radius: 5px; 
+        border-top-right-radius: 5px; 
+}
+.review_text{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        background-color: lightgray;
+        margin-bottom: 20px;
+}
+.send{
+        margin-bottom: 4%;
+}
+.send .input[type="text"], textarea{
+        border: solid 5px #7268ad;
+        margin-bottom: 2%;
+}
+.send input[type="text"]{
+        width: 98%;
+}
+
+.send textarea{
+        margin-top: 10px;
+        width: 624px;
+        height: 150px;
+}
+.send input[type="submit"]{
+        background-color: #7268ad;
+        padding: 3%;
+        color: white;
+        border-radius: 5px;
+}
+
+
+
+.send_contact{
+         margin-bottom: 7%;
+         
+}
+
+.send_contact .input[type="text"], textarea{
+        border: solid 5px #7268ad;
+        margin-bottom: 2%;
+}
+.send_contact textarea{
+        margin-top: 10px;
+        width: 560px;
+        height: 150px;
+}
+
+.send_contact input[type="submit"]{
+        background-color: #7268ad;
+        padding: 2%;
+        color: white;
+        border-radius: 5px;
+}
+.info_film{
+        margin-bottom: 5%;
+        background-color: #f9f9f9;
+        padding: 3% 2% 3% 0;
+        height: 250px;
+        width: 580px;
+}
+.info_film img{
+        float: left;
+        margin-right: 5%;
+        border-radius: 5px;
+        border:solid 5px #dad7d5;
+}
+.info_film p{
+        font-size: 15px;
+        line-height: 20px;
+        width: 580px;
+
+}
+.button{
+        background-color: #7268ad;
+        padding:2%;
+        color: white;
+        border-radius: 5px;
+        float: right;
+        margin-left: 30%;
+        clear:both;
+        font-size: 0.8em;
+}
+.button a{
+        color: white;
+}
+table{
+        width: 95%;
+        border: solid 1px #f4f4f4;
+}
+table a{
+        color: black;
+}
+td{
+        padding:2%;
+        border: solid 1px #f4f4f4;
+}
+td img{
+        width: 60px;
+        vertical-align: middle;
+}
+.center{
+        text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: darkslateblue;
+    color: #a8aa94;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+.footer a{
+        color:#a8aa94;
+        text-decoration: none; 
+}
+.footer a:hover{
+        color: #fff;
+        text-decoration: none;
+}
+.footer p{
+        padding: 0 0 10px 0;
+}
+
+
+
+@media only screen
+and (min-device-width : 320px)
+and(max-device-width : 568px){
+
+.header{
+    background-color: #257965;
+}
+
+
